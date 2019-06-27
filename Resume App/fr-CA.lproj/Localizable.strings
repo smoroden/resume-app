@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Resume App
+
+  Created by Zach Smoroden on 2019-06-24.
+  Copyright © 2019 Zach Smoroden. All rights reserved.
+*/
+
+"empty.message" = "There is no resume downloaded at this moment.";
+"profile.title" = "Profile";
+"global.refreshindicator.accessibility.label" = "Refresh in progress";
+
+// MARK: - Home
+"home.profile.button.title" = "Profil";
+"home.education.button.title" = "Éducation";
+"home.skills.button.title" = "Compétences";
+"home.expertise.button.title" = "Maîtrises";
+"home.experience.button.title" = "Expériences";
+
+// MARK: - Profile
+"profile.fullname" = "Nom";
+"profile.email.label" = "Courriel: %@";
+"profile.email.accessibility.label" = "Courriel";
+"profile.web.header.title" = "Sites Web";
+"profile.web.stack.accessibility.label" = "Sites Web";
+"profile.description.accessibility.label" = "Description";
+"profile.phone.label" = "Téléphone: %@";
+"profile.email.accessibility.label" = "Numéro de Téléphone";
+"profile.description.header.title" = "Description";
+
+// MARK: - Education
+"education.title" = "Éducation";
+"education.empty.message" = "Aucun établissements scolaires énuméré sur le résumé.";
+"schoolcell.accessibility.label" = "Établissements scolaires";
+
+
+// MARK: - Experience
+"experiencecell.accessibility.label" = "Lieu de Travail";
+"experience.empty.message" = "Aucune expérience précédente énumérée sur le résumé.";
+"experience.title" = "Previous Experience";
+
+// MARK: - Experience
+"skills.empty.message" = "Aucunes compétences énumérée sur le résumé.";
+"skillcell.accessibility.label" = "Compétences";
+"skills.title" = "Compétences Techniques";
+
+// MARK: - Expertise
+"expertisecell.accessibility.label" = "Maîtrises";
+"expertise.empty.message" = "Aucunes maîtrises énumérées sur le résumé";
+"expertise.title" = "Maîtrises";
+
+// MARK: - Navigation Controller
+"navigation.error.title" = "Erreur";
+"navigation.error.ok.title" = "OK";
+
+// MARK: - LocalRepository Error
+"localrepository.error.decode" = "Le format de cet information est invalide.";
+"localrepository.error.nodata" = "Aucune information n'est sauvegarder sur le disk local.";
+"localrepository.error.nodocumentspath" = "Erreur interne. S'il vous plaît, réessayer.";

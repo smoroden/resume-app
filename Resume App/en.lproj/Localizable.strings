@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Resume App
+
+  Created by Zach Smoroden on 2019-06-24.
+  Copyright © 2019 Zach Smoroden. All rights reserved.
+*/
+
+"empty.message" = "There is no resume downloaded at this moment.";
+"profile.title" = "Profile";
+"global.refreshindicator.accessibility.label" = "Refresh in progress";
+
+// MARK: - Home
+"home.profile.button.title" = "Profile";
+"home.education.button.title" = "Education";
+"home.skills.button.title" = "Skills";
+"home.expertise.button.title" = "Expertise";
+"home.experience.button.title" = "Experience";
+
+// MARK: - Profile
+"profile.fullname" = "Name";
+"profile.email.label" = "Email: %@";
+"profile.email.accessibility.label" = "Email";
+"profile.web.header.title" = "Websites";
+"profile.web.stack.accessibility.label" = "Websites";
+"profile.description.accessibility.label" = "Description";
+"profile.phone.label" = "Phone: %@";
+"profile.email.accessibility.label" = "Phone Number";
+"profile.description.header.title" = "Description";
+
+// MARK: - Education
+"education.title" = "Education";
+"education.empty.message" = "There were no school provided in the resume.";
+"schoolcell.accessibility.label" = "School";
+
+
+// MARK: - Experience
+"experiencecell.accessibility.label" = "Workplace";
+"experience.empty.message" = "There was no previous experience provided in the resume.";
+"experience.title" = "Previous Experience";
+
+// MARK: - Experience
+"skills.empty.message" = "There were no skills provided in the resume.";
+"skillcell.accessibility.label" = "Skill";
+"skills.title" = "Technical Skills";
+
+// MARK: - Expertise
+"expertisecell.accessibility.label" = "Expertise";
+"expertise.empty.message" = "There were no expertise values provided in the resume.";
+"expertise.title" = "Expertise";
+
+// MARK: - Navigation Controller
+"navigation.error.title" = "An error occured";
+"navigation.error.ok.title" = "OK";
+
+// MARK: - LocalRepository Error
+"localrepository.error.decode" = "The data returned is not in the expected format.";
+"localrepository.error.nodata" = "No data was found saved locally";
+"localrepository.error.nodocumentspath" = "An internal error occured. Try again later.";
