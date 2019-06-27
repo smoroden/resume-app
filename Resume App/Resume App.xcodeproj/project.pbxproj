@@ -7,12 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580B92F522C2BDC700E720CB /* ResumeNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B92F422C2BDC700E720CB /* ResumeNavigationViewController.swift */; };
+		580B930B22C2DFFC00E720CB /* RefreshableResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B930A22C2DFFC00E720CB /* RefreshableResumeViewController.swift */; };
+		580B930E22C2FFC300E720CB /* UIColor+Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B930D22C2FFC300E720CB /* UIColor+Resume.swift */; };
+		580B931122C339DE00E720CB /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B931022C339DE00E720CB /* SchoolTableViewCell.swift */; };
+		580B932922C3426100E720CB /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932822C3426100E720CB /* ExperienceTableViewCell.swift */; };
+		580B932B22C345D700E720CB /* Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932A22C345D700E720CB /* Named.swift */; };
+		580B932D22C346CA00E720CB /* SkillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932C22C346CA00E720CB /* SkillsTableViewCell.swift */; };
+		580B932F22C3482300E720CB /* ExpertiseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932E22C3482300E720CB /* ExpertiseTableViewCell.swift */; };
+		580B933322C3575C00E720CB /* ResumeLocalRepositoryErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B933222C3575C00E720CB /* ResumeLocalRepositoryErrorTests.swift */; };
+		580B933522C3584400E720CB /* MockDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B933422C3584400E720CB /* MockDecodingError.swift */; };
+		581414B422C440B500EEBCE7 /* ExpertiseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676922C439E0007620F4 /* ExpertiseViewModel.swift */; };
+		581414B522C440B800EEBCE7 /* SkillsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676B22C43A38007620F4 /* SkillsViewModel.swift */; };
+		581414B622C440BA00EEBCE7 /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676D22C43A7F007620F4 /* ExperienceViewModel.swift */; };
+		581414B722C440BD00EEBCE7 /* EducationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676F22C43B3F007620F4 /* EducationViewModel.swift */; };
+		581414B822C440BF00EEBCE7 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858677122C43BEF007620F4 /* ProfileViewModel.swift */; };
+		581414B922C440C200EEBCE7 /* ResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858677322C43CA8007620F4 /* ResumeViewModel.swift */; };
+		581414BA22C44DE100EEBCE7 /* MockResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858674B22C3C459007620F4 /* MockResume.swift */; };
+		581414BC22C459C700EEBCE7 /* MockResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581414BB22C459C700EEBCE7 /* MockResume.swift */; };
 		5818A8F322BEA31700A9E581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A8F222BEA31700A9E581 /* AppDelegate.swift */; };
-		5818A8F522BEA31700A9E581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A8F422BEA31700A9E581 /* ViewController.swift */; };
+		5818A8F522BEA31700A9E581 /* ResumeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A8F422BEA31700A9E581 /* ResumeHomeViewController.swift */; };
 		5818A8FA22BEA31900A9E581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5818A8F922BEA31900A9E581 /* Assets.xcassets */; };
 		5818A8FD22BEA31900A9E581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5818A8FB22BEA31900A9E581 /* LaunchScreen.storyboard */; };
 		5818A90822BEA31900A9E581 /* Resume_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A90722BEA31900A9E581 /* Resume_AppTests.swift */; };
 		5818A91322BEA31900A9E581 /* Resume_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A91222BEA31900A9E581 /* Resume_AppUITests.swift */; };
+		5818A92322BEB1B400A9E581 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92222BEB1B400A9E581 /* Resume.swift */; };
+		5818A92522BEB78300A9E581 /* ResumeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92422BEB78300A9E581 /* ResumeRepository.swift */; };
+		5818A92922BECBBF00A9E581 /* ResumeRemoteServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92822BECBBF00A9E581 /* ResumeRemoteServiceProtocol.swift */; };
+		5818A92B22BECBFA00A9E581 /* ResumeRemoteConfigProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92A22BECBFA00A9E581 /* ResumeRemoteConfigProtocol.swift */; };
+		5818A92F22BECC3B00A9E581 /* ResumeRemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92E22BECC3B00A9E581 /* ResumeRemoteConfig.swift */; };
+		5818A93122BECC7E00A9E581 /* ResumeRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93022BECC7E00A9E581 /* ResumeRemoteService.swift */; };
+		5818A93322BECDC700A9E581 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93222BECDC700A9E581 /* Result.swift */; };
+		5818A93622BECE0B00A9E581 /* ResumeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93522BECE0B00A9E581 /* ResumeRepositoryProtocol.swift */; };
+		5818A94022BFF97400A9E581 /* ResumePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93F22BFF97400A9E581 /* ResumePresenterProtocol.swift */; };
+		5818A94522C0197400A9E581 /* ResumeLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A94422C0197400A9E581 /* ResumeLocalRepository.swift */; };
+		5818A94722C01C3800A9E581 /* ResumeLocalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A94622C01C3800A9E581 /* ResumeLocalRepositoryProtocol.swift */; };
+		5818A94A22C0221900A9E581 /* ResumePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A94922C0221900A9E581 /* ResumePresenter.swift */; };
+		5818A94E22C06C2A00A9E581 /* ResumeRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A94D22C06C2A00A9E581 /* ResumeRepositoryTests.swift */; };
+		5818A95122C06C5200A9E581 /* MockRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A95022C06C5200A9E581 /* MockRemoteService.swift */; };
+		5818A95D22C073B200A9E581 /* MockLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A95C22C073B200A9E581 /* MockLocalService.swift */; };
+		5818A95F22C07C3D00A9E581 /* ResumeLocalRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A95E22C07C3D00A9E581 /* ResumeLocalRepositoryTests.swift */; };
+		5818A96222C07DFA00A9E581 /* TestContainer.xcappdata in Resources */ = {isa = PBXBuildFile; fileRef = 5818A96122C07DFA00A9E581 /* TestContainer.xcappdata */; };
+		58289C5222C1BBC900704212 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5122C1BBC900704212 /* ProfileViewController.swift */; };
+		58289C5422C1BBD700704212 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5322C1BBD700704212 /* EducationViewController.swift */; };
+		58289C5622C1BBE700704212 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5522C1BBE700704212 /* ExperienceViewController.swift */; };
+		58289C5822C1BBF100704212 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5722C1BBF100704212 /* SkillsViewController.swift */; };
+		58289C5A22C1BC0A00704212 /* ExpertiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5922C1BC0A00704212 /* ExpertiseViewController.swift */; };
+		58289C6422C1CA8A00704212 /* ResumeViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C6322C1CA8A00704212 /* ResumeViewControllerProtocol.swift */; };
+		58289C6622C1D85900704212 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C6522C1D85900704212 /* EmptyViewController.swift */; };
+		58289C6A22C1D98F00704212 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58289C6C22C1D98F00704212 /* Localizable.strings */; };
+		5858674C22C3C459007620F4 /* MockResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858674B22C3C459007620F4 /* MockResume.swift */; };
+		5858674D22C3C464007620F4 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92222BEB1B400A9E581 /* Resume.swift */; };
+		5858674E22C3C4A2007620F4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93222BECDC700A9E581 /* Result.swift */; };
+		5858674F22C3C4A2007620F4 /* ResumeRemoteServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92822BECBBF00A9E581 /* ResumeRemoteServiceProtocol.swift */; };
+		5858675022C3C4A2007620F4 /* ResumeRemoteConfigProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92A22BECBFA00A9E581 /* ResumeRemoteConfigProtocol.swift */; };
+		5858675122C3C4A2007620F4 /* ResumeRemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92E22BECC3B00A9E581 /* ResumeRemoteConfig.swift */; };
+		5858675222C3C4A2007620F4 /* ResumeRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93022BECC7E00A9E581 /* ResumeRemoteService.swift */; };
+		5858675322C3C4A2007620F4 /* ResumeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93522BECE0B00A9E581 /* ResumeRepositoryProtocol.swift */; };
+		5858675422C3C4A2007620F4 /* ResumeLocalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A94622C01C3800A9E581 /* ResumeLocalRepositoryProtocol.swift */; };
+		5858675522C3C4A2007620F4 /* ResumeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A92422BEB78300A9E581 /* ResumeRepository.swift */; };
+		5858675622C3C4A2007620F4 /* ResumeLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A94422C0197400A9E581 /* ResumeLocalRepository.swift */; };
+		5858675722C3C4A2007620F4 /* UIColor+Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B930D22C2FFC300E720CB /* UIColor+Resume.swift */; };
+		5858675822C3C4A2007620F4 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B931022C339DE00E720CB /* SchoolTableViewCell.swift */; };
+		5858675922C3C4A2007620F4 /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932822C3426100E720CB /* ExperienceTableViewCell.swift */; };
+		5858675A22C3C4A2007620F4 /* SkillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932C22C346CA00E720CB /* SkillsTableViewCell.swift */; };
+		5858675B22C3C4A2007620F4 /* ExpertiseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932E22C3482300E720CB /* ExpertiseTableViewCell.swift */; };
+		5858675C22C3C4A2007620F4 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C6522C1D85900704212 /* EmptyViewController.swift */; };
+		5858675D22C3C4A2007620F4 /* ResumeNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B92F422C2BDC700E720CB /* ResumeNavigationViewController.swift */; };
+		5858675E22C3C4A2007620F4 /* RefreshableResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B930A22C2DFFC00E720CB /* RefreshableResumeViewController.swift */; };
+		5858675F22C3C4A2007620F4 /* ResumeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A8F422BEA31700A9E581 /* ResumeHomeViewController.swift */; };
+		5858676022C3C4A2007620F4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5122C1BBC900704212 /* ProfileViewController.swift */; };
+		5858676122C3C4A2007620F4 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5322C1BBD700704212 /* EducationViewController.swift */; };
+		5858676222C3C4A2007620F4 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5522C1BBE700704212 /* ExperienceViewController.swift */; };
+		5858676322C3C4A2007620F4 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5722C1BBF100704212 /* SkillsViewController.swift */; };
+		5858676422C3C4A2007620F4 /* ExpertiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C5922C1BC0A00704212 /* ExpertiseViewController.swift */; };
+		5858676522C3C4A2007620F4 /* ResumeViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58289C6322C1CA8A00704212 /* ResumeViewControllerProtocol.swift */; };
+		5858676622C3C4A2007620F4 /* ResumePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A94922C0221900A9E581 /* ResumePresenter.swift */; };
+		5858676722C3C4A2007620F4 /* ResumePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818A93F22BFF97400A9E581 /* ResumePresenterProtocol.swift */; };
+		5858676A22C439E0007620F4 /* ExpertiseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676922C439E0007620F4 /* ExpertiseViewModel.swift */; };
+		5858676C22C43A38007620F4 /* SkillsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676B22C43A38007620F4 /* SkillsViewModel.swift */; };
+		5858677022C43B3F007620F4 /* EducationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676F22C43B3F007620F4 /* EducationViewModel.swift */; };
+		5858677222C43BEF007620F4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858677122C43BEF007620F4 /* ProfileViewModel.swift */; };
+		5858677522C43F80007620F4 /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858676D22C43A7F007620F4 /* ExperienceViewModel.swift */; };
+		5858677622C43F83007620F4 /* ResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858677322C43CA8007620F4 /* ResumeViewModel.swift */; };
+		589B661022C3C2AF00BF7D54 /* Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B932A22C345D700E720CB /* Named.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +111,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		580B92F422C2BDC700E720CB /* ResumeNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeNavigationViewController.swift; sourceTree = "<group>"; };
+		580B930A22C2DFFC00E720CB /* RefreshableResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableResumeViewController.swift; sourceTree = "<group>"; };
+		580B930D22C2FFC300E720CB /* UIColor+Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Resume.swift"; sourceTree = "<group>"; };
+		580B931022C339DE00E720CB /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		580B932822C3426100E720CB /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
+		580B932A22C345D700E720CB /* Named.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Named.swift; sourceTree = "<group>"; };
+		580B932C22C346CA00E720CB /* SkillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsTableViewCell.swift; sourceTree = "<group>"; };
+		580B932E22C3482300E720CB /* ExpertiseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertiseTableViewCell.swift; sourceTree = "<group>"; };
+		580B933222C3575C00E720CB /* ResumeLocalRepositoryErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeLocalRepositoryErrorTests.swift; sourceTree = "<group>"; };
+		580B933422C3584400E720CB /* MockDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDecodingError.swift; sourceTree = "<group>"; };
+		581414BB22C459C700EEBCE7 /* MockResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockResume.swift; sourceTree = "<group>"; };
+		581414BD22C45A4400EEBCE7 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5818A8EF22BEA31700A9E581 /* Resume App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resume App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5818A8F222BEA31700A9E581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5818A8F422BEA31700A9E581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5818A8F422BEA31700A9E581 /* ResumeHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeHomeViewController.swift; sourceTree = "<group>"; };
 		5818A8F922BEA31900A9E581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5818A8FC22BEA31900A9E581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5818A8FE22BEA31900A9E581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +135,39 @@
 		5818A90E22BEA31900A9E581 /* Resume AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resume AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5818A91222BEA31900A9E581 /* Resume_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume_AppUITests.swift; sourceTree = "<group>"; };
 		5818A91422BEA31900A9E581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5818A92222BEB1B400A9E581 /* Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
+		5818A92422BEB78300A9E581 /* ResumeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeRepository.swift; sourceTree = "<group>"; };
+		5818A92822BECBBF00A9E581 /* ResumeRemoteServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeRemoteServiceProtocol.swift; sourceTree = "<group>"; };
+		5818A92A22BECBFA00A9E581 /* ResumeRemoteConfigProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeRemoteConfigProtocol.swift; sourceTree = "<group>"; };
+		5818A92E22BECC3B00A9E581 /* ResumeRemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeRemoteConfig.swift; sourceTree = "<group>"; };
+		5818A93022BECC7E00A9E581 /* ResumeRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeRemoteService.swift; sourceTree = "<group>"; };
+		5818A93222BECDC700A9E581 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5818A93522BECE0B00A9E581 /* ResumeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5818A93F22BFF97400A9E581 /* ResumePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumePresenterProtocol.swift; sourceTree = "<group>"; };
+		5818A94422C0197400A9E581 /* ResumeLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeLocalRepository.swift; sourceTree = "<group>"; };
+		5818A94622C01C3800A9E581 /* ResumeLocalRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeLocalRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5818A94922C0221900A9E581 /* ResumePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumePresenter.swift; sourceTree = "<group>"; };
+		5818A94D22C06C2A00A9E581 /* ResumeRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeRepositoryTests.swift; sourceTree = "<group>"; };
+		5818A95022C06C5200A9E581 /* MockRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRemoteService.swift; sourceTree = "<group>"; };
+		5818A95C22C073B200A9E581 /* MockLocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocalService.swift; sourceTree = "<group>"; };
+		5818A95E22C07C3D00A9E581 /* ResumeLocalRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeLocalRepositoryTests.swift; sourceTree = "<group>"; };
+		5818A96122C07DFA00A9E581 /* TestContainer.xcappdata */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TestContainer.xcappdata; sourceTree = "<group>"; };
+		58289C5122C1BBC900704212 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		58289C5322C1BBD700704212 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		58289C5522C1BBE700704212 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		58289C5722C1BBF100704212 /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		58289C5922C1BC0A00704212 /* ExpertiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertiseViewController.swift; sourceTree = "<group>"; };
+		58289C6322C1CA8A00704212 /* ResumeViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewControllerProtocol.swift; sourceTree = "<group>"; };
+		58289C6522C1D85900704212 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		58289C6722C1D96900704212 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		58289C6B22C1D98F00704212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5858674B22C3C459007620F4 /* MockResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockResume.swift; sourceTree = "<group>"; };
+		5858676922C439E0007620F4 /* ExpertiseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertiseViewModel.swift; sourceTree = "<group>"; };
+		5858676B22C43A38007620F4 /* SkillsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewModel.swift; sourceTree = "<group>"; };
+		5858676D22C43A7F007620F4 /* ExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewModel.swift; sourceTree = "<group>"; };
+		5858676F22C43B3F007620F4 /* EducationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewModel.swift; sourceTree = "<group>"; };
+		5858677122C43BEF007620F4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		5858677322C43CA8007620F4 /* ResumeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +195,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		580B92F622C2C21A00E720CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				580B930F22C339CC00E720CB /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		580B930C22C2FFAB00E720CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				580B930D22C2FFC300E720CB /* UIColor+Resume.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		580B930F22C339CC00E720CB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				580B931022C339DE00E720CB /* SchoolTableViewCell.swift */,
+				580B932822C3426100E720CB /* ExperienceTableViewCell.swift */,
+				580B932C22C346CA00E720CB /* SkillsTableViewCell.swift */,
+				580B932E22C3482300E720CB /* ExpertiseTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		580B933722C35E0400E720CB /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				580B933922C35E2800E720CB /* Base */,
+				580B933822C35E1700E720CB /* Content */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		580B933822C35E1700E720CB /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				5818A8F422BEA31700A9E581 /* ResumeHomeViewController.swift */,
+				58289C5122C1BBC900704212 /* ProfileViewController.swift */,
+				58289C5322C1BBD700704212 /* EducationViewController.swift */,
+				58289C5522C1BBE700704212 /* ExperienceViewController.swift */,
+				58289C5722C1BBF100704212 /* SkillsViewController.swift */,
+				58289C5922C1BC0A00704212 /* ExpertiseViewController.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		580B933922C35E2800E720CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				58289C6522C1D85900704212 /* EmptyViewController.swift */,
+				580B92F422C2BDC700E720CB /* ResumeNavigationViewController.swift */,
+				580B930A22C2DFFC00E720CB /* RefreshableResumeViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5818A8E622BEA31700A9E581 = {
 			isa = PBXGroup;
 			children = (
+				58289C6C22C1D98F00704212 /* Localizable.strings */,
 				5818A8F122BEA31700A9E581 /* Resume App */,
 				5818A90622BEA31900A9E581 /* Resume AppTests */,
 				5818A91122BEA31900A9E581 /* Resume AppUITests */,
@@ -95,8 +278,10 @@
 		5818A8F122BEA31700A9E581 /* Resume App */ = {
 			isa = PBXGroup;
 			children = (
+				5818A93A22BFF86E00A9E581 /* Domain */,
+				5818A92022BEA6F400A9E581 /* Data */,
+				5818A93B22BFF92000A9E581 /* View */,
 				5818A8F222BEA31700A9E581 /* AppDelegate.swift */,
-				5818A8F422BEA31700A9E581 /* ViewController.swift */,
 				5818A8F922BEA31900A9E581 /* Assets.xcassets */,
 				5818A8FB22BEA31900A9E581 /* LaunchScreen.storyboard */,
 				5818A8FE22BEA31900A9E581 /* Info.plist */,
@@ -107,6 +292,9 @@
 		5818A90622BEA31900A9E581 /* Resume AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				5818A96022C07DFA00A9E581 /* TestContainer */,
+				5818A94F22C06C3D00A9E581 /* Mocks */,
+				5818A94B22C06C0400A9E581 /* Data */,
 				5818A90722BEA31900A9E581 /* Resume_AppTests.swift */,
 				5818A90922BEA31900A9E581 /* Info.plist */,
 			);
@@ -116,10 +304,204 @@
 		5818A91122BEA31900A9E581 /* Resume AppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				5858674A22C3C44D007620F4 /* Mock */,
 				5818A91222BEA31900A9E581 /* Resume_AppUITests.swift */,
 				5818A91422BEA31900A9E581 /* Info.plist */,
 			);
 			path = "Resume AppUITests";
+			sourceTree = "<group>";
+		};
+		5818A92022BEA6F400A9E581 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5818A92722BEC97500A9E581 /* Remote */,
+				5818A92622BEB78A00A9E581 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5818A92122BEA70300A9E581 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5818A92222BEB1B400A9E581 /* Resume.swift */,
+				5818A93222BECDC700A9E581 /* Result.swift */,
+				580B932A22C345D700E720CB /* Named.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5818A92622BEB78A00A9E581 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5818A93422BECDEC00A9E581 /* Protocol */,
+				5818A94822C021D800A9E581 /* Implementation */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5818A92722BEC97500A9E581 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				5818A92C22BECC2900A9E581 /* Protocol */,
+				5818A92D22BECC2F00A9E581 /* Implementation */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		5818A92C22BECC2900A9E581 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5818A92822BECBBF00A9E581 /* ResumeRemoteServiceProtocol.swift */,
+				5818A92A22BECBFA00A9E581 /* ResumeRemoteConfigProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5818A92D22BECC2F00A9E581 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				5818A92E22BECC3B00A9E581 /* ResumeRemoteConfig.swift */,
+				5818A93022BECC7E00A9E581 /* ResumeRemoteService.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		5818A93422BECDEC00A9E581 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5818A93522BECE0B00A9E581 /* ResumeRepositoryProtocol.swift */,
+				5818A94622C01C3800A9E581 /* ResumeLocalRepositoryProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5818A93A22BFF86E00A9E581 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5818A92122BEA70300A9E581 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5818A93B22BFF92000A9E581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5858676822C439D4007620F4 /* ViewModel */,
+				580B930C22C2FFAB00E720CB /* Extensions */,
+				580B92F622C2C21A00E720CB /* View */,
+				58289C5022C1BBA700704212 /* ViewController */,
+				5818A93C22BFF92A00A9E581 /* Presenter */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5818A93C22BFF92A00A9E581 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5818A93E22BFF95000A9E581 /* Implementation */,
+				5818A93D22BFF94900A9E581 /* Protocol */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5818A93D22BFF94900A9E581 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5818A93F22BFF97400A9E581 /* ResumePresenterProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5818A93E22BFF95000A9E581 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				5818A94922C0221900A9E581 /* ResumePresenter.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		5818A94822C021D800A9E581 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				5818A92422BEB78300A9E581 /* ResumeRepository.swift */,
+				5818A94422C0197400A9E581 /* ResumeLocalRepository.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		5818A94B22C06C0400A9E581 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5818A94C22C06C0A00A9E581 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5818A94C22C06C0A00A9E581 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5818A94D22C06C2A00A9E581 /* ResumeRepositoryTests.swift */,
+				5818A95E22C07C3D00A9E581 /* ResumeLocalRepositoryTests.swift */,
+				580B933222C3575C00E720CB /* ResumeLocalRepositoryErrorTests.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5818A94F22C06C3D00A9E581 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5818A95022C06C5200A9E581 /* MockRemoteService.swift */,
+				5818A95C22C073B200A9E581 /* MockLocalService.swift */,
+				580B933422C3584400E720CB /* MockDecodingError.swift */,
+				581414BB22C459C700EEBCE7 /* MockResume.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		5818A96022C07DFA00A9E581 /* TestContainer */ = {
+			isa = PBXGroup;
+			children = (
+				5818A96122C07DFA00A9E581 /* TestContainer.xcappdata */,
+			);
+			path = TestContainer;
+			sourceTree = "<group>";
+		};
+		58289C5022C1BBA700704212 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				580B933722C35E0400E720CB /* Implementations */,
+				58289C6222C1CA7D00704212 /* Protocol */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		58289C6222C1CA7D00704212 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				58289C6322C1CA8A00704212 /* ResumeViewControllerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5858674A22C3C44D007620F4 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				5858674B22C3C459007620F4 /* MockResume.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		5858676822C439D4007620F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5858676922C439E0007620F4 /* ExpertiseViewModel.swift */,
+				5858676B22C43A38007620F4 /* SkillsViewModel.swift */,
+				5858676D22C43A7F007620F4 /* ExperienceViewModel.swift */,
+				5858676F22C43B3F007620F4 /* EducationViewModel.swift */,
+				5858677122C43BEF007620F4 /* ProfileViewModel.swift */,
+				5858677322C43CA8007620F4 /* ResumeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +590,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"fr-CA",
 			);
 			mainGroup = 5818A8E622BEA31700A9E581;
 			productRefGroup = 5818A8F022BEA31700A9E581 /* Products */;
@@ -227,6 +610,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5818A8FD22BEA31900A9E581 /* LaunchScreen.storyboard in Resources */,
+				58289C6A22C1D98F00704212 /* Localizable.strings in Resources */,
 				5818A8FA22BEA31900A9E581 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +619,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5818A96222C07DFA00A9E581 /* TestContainer.xcappdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +637,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5818A8F522BEA31700A9E581 /* ViewController.swift in Sources */,
+				5858676A22C439E0007620F4 /* ExpertiseViewModel.swift in Sources */,
+				5818A93322BECDC700A9E581 /* Result.swift in Sources */,
+				5818A92922BECBBF00A9E581 /* ResumeRemoteServiceProtocol.swift in Sources */,
+				5818A92322BEB1B400A9E581 /* Resume.swift in Sources */,
+				5818A93122BECC7E00A9E581 /* ResumeRemoteService.swift in Sources */,
+				58289C6622C1D85900704212 /* EmptyViewController.swift in Sources */,
+				581414BA22C44DE100EEBCE7 /* MockResume.swift in Sources */,
+				58289C5422C1BBD700704212 /* EducationViewController.swift in Sources */,
+				5818A94722C01C3800A9E581 /* ResumeLocalRepositoryProtocol.swift in Sources */,
+				5818A92522BEB78300A9E581 /* ResumeRepository.swift in Sources */,
+				58289C5822C1BBF100704212 /* SkillsViewController.swift in Sources */,
+				58289C5222C1BBC900704212 /* ProfileViewController.swift in Sources */,
+				580B930E22C2FFC300E720CB /* UIColor+Resume.swift in Sources */,
+				5858677622C43F83007620F4 /* ResumeViewModel.swift in Sources */,
+				580B932922C3426100E720CB /* ExperienceTableViewCell.swift in Sources */,
+				5818A8F522BEA31700A9E581 /* ResumeHomeViewController.swift in Sources */,
+				5858676C22C43A38007620F4 /* SkillsViewModel.swift in Sources */,
+				580B932B22C345D700E720CB /* Named.swift in Sources */,
+				580B932F22C3482300E720CB /* ExpertiseTableViewCell.swift in Sources */,
+				5818A92B22BECBFA00A9E581 /* ResumeRemoteConfigProtocol.swift in Sources */,
+				58289C5A22C1BC0A00704212 /* ExpertiseViewController.swift in Sources */,
+				580B931122C339DE00E720CB /* SchoolTableViewCell.swift in Sources */,
+				5818A94A22C0221900A9E581 /* ResumePresenter.swift in Sources */,
+				5858677522C43F80007620F4 /* ExperienceViewModel.swift in Sources */,
+				58289C5622C1BBE700704212 /* ExperienceViewController.swift in Sources */,
+				580B930B22C2DFFC00E720CB /* RefreshableResumeViewController.swift in Sources */,
+				5818A92F22BECC3B00A9E581 /* ResumeRemoteConfig.swift in Sources */,
+				580B932D22C346CA00E720CB /* SkillsTableViewCell.swift in Sources */,
+				5818A93622BECE0B00A9E581 /* ResumeRepositoryProtocol.swift in Sources */,
+				58289C6422C1CA8A00704212 /* ResumeViewControllerProtocol.swift in Sources */,
 				5818A8F322BEA31700A9E581 /* AppDelegate.swift in Sources */,
+				5858677022C43B3F007620F4 /* EducationViewModel.swift in Sources */,
+				5858677222C43BEF007620F4 /* ProfileViewModel.swift in Sources */,
+				5818A94522C0197400A9E581 /* ResumeLocalRepository.swift in Sources */,
+				5818A94022BFF97400A9E581 /* ResumePresenterProtocol.swift in Sources */,
+				580B92F522C2BDC700E720CB /* ResumeNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +680,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5818A94E22C06C2A00A9E581 /* ResumeRepositoryTests.swift in Sources */,
+				5818A95D22C073B200A9E581 /* MockLocalService.swift in Sources */,
+				5818A95122C06C5200A9E581 /* MockRemoteService.swift in Sources */,
+				580B933322C3575C00E720CB /* ResumeLocalRepositoryErrorTests.swift in Sources */,
+				5818A95F22C07C3D00A9E581 /* ResumeLocalRepositoryTests.swift in Sources */,
 				5818A90822BEA31900A9E581 /* Resume_AppTests.swift in Sources */,
+				581414BC22C459C700EEBCE7 /* MockResume.swift in Sources */,
+				580B933522C3584400E720CB /* MockDecodingError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +695,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5858674D22C3C464007620F4 /* Resume.swift in Sources */,
+				5858675222C3C4A2007620F4 /* ResumeRemoteService.swift in Sources */,
+				5858674E22C3C4A2007620F4 /* Result.swift in Sources */,
+				5858676522C3C4A2007620F4 /* ResumeViewControllerProtocol.swift in Sources */,
+				5858675922C3C4A2007620F4 /* ExperienceTableViewCell.swift in Sources */,
+				5858676422C3C4A2007620F4 /* ExpertiseViewController.swift in Sources */,
+				5858675622C3C4A2007620F4 /* ResumeLocalRepository.swift in Sources */,
+				5858675C22C3C4A2007620F4 /* EmptyViewController.swift in Sources */,
+				5858675022C3C4A2007620F4 /* ResumeRemoteConfigProtocol.swift in Sources */,
+				581414B922C440C200EEBCE7 /* ResumeViewModel.swift in Sources */,
+				581414B622C440BA00EEBCE7 /* ExperienceViewModel.swift in Sources */,
+				5858675D22C3C4A2007620F4 /* ResumeNavigationViewController.swift in Sources */,
+				5858676322C3C4A2007620F4 /* SkillsViewController.swift in Sources */,
+				5858675A22C3C4A2007620F4 /* SkillsTableViewCell.swift in Sources */,
+				5858674C22C3C459007620F4 /* MockResume.swift in Sources */,
+				589B661022C3C2AF00BF7D54 /* Named.swift in Sources */,
+				581414B522C440B800EEBCE7 /* SkillsViewModel.swift in Sources */,
+				581414B422C440B500EEBCE7 /* ExpertiseViewModel.swift in Sources */,
+				5858675522C3C4A2007620F4 /* ResumeRepository.swift in Sources */,
+				5858674F22C3C4A2007620F4 /* ResumeRemoteServiceProtocol.swift in Sources */,
+				5858675E22C3C4A2007620F4 /* RefreshableResumeViewController.swift in Sources */,
+				5858676722C3C4A2007620F4 /* ResumePresenterProtocol.swift in Sources */,
+				5858675122C3C4A2007620F4 /* ResumeRemoteConfig.swift in Sources */,
+				5858676022C3C4A2007620F4 /* ProfileViewController.swift in Sources */,
+				581414B722C440BD00EEBCE7 /* EducationViewModel.swift in Sources */,
+				5858675822C3C4A2007620F4 /* SchoolTableViewCell.swift in Sources */,
+				5858676622C3C4A2007620F4 /* ResumePresenter.swift in Sources */,
+				5858675F22C3C4A2007620F4 /* ResumeHomeViewController.swift in Sources */,
+				5858675B22C3C4A2007620F4 /* ExpertiseTableViewCell.swift in Sources */,
+				5858676122C3C4A2007620F4 /* EducationViewController.swift in Sources */,
+				5858675422C3C4A2007620F4 /* ResumeLocalRepositoryProtocol.swift in Sources */,
+				5858675322C3C4A2007620F4 /* ResumeRepositoryProtocol.swift in Sources */,
+				5858676222C3C4A2007620F4 /* ExperienceViewController.swift in Sources */,
+				5858675722C3C4A2007620F4 /* UIColor+Resume.swift in Sources */,
 				5818A91322BEA31900A9E581 /* Resume_AppUITests.swift in Sources */,
+				581414B822C440BF00EEBCE7 /* ProfileViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +754,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				5818A8FC22BEA31900A9E581 /* Base */,
+				58289C6722C1D96900704212 /* fr-CA */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		58289C6C22C1D98F00704212 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58289C6B22C1D98F00704212 /* en */,
+				581414BD22C45A4400EEBCE7 /* fr-CA */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -304,6 +775,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -365,6 +837,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -421,6 +894,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3C2PX6DCKS;
 				INFOPLIST_FILE = "Resume App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -430,7 +904,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zachsmoroden.Resume-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,6 +913,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3C2PX6DCKS;
 				INFOPLIST_FILE = "Resume App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,7 +923,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zachsmoroden.Resume-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
