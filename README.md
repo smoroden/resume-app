@@ -1,5 +1,7 @@
 # Resume App
 
+Not tested on iOS 13
+
 ## Notes
 * There should probably be more UI Tests but there are some. I need to learn more about best practices surrounding them.
 * It would have been nice to get more of the data on the screen like profile image and just more detail in the various screens like education. Time just didn't allow it.
